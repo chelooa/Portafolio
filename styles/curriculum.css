@@ -1,0 +1,23 @@
+.presentacion-subtitulo-curriculum{
+    font-family: "Krona One", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.presentacion-curriculum-lista-elemento{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #f6f6f6;
+}
+
+.presentacion-curriculum-lista{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.presentacion-curriculum-lista-elemento a{
+    text-decoration: none;
+    color: #22d4fd;
+}

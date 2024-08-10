@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #000000;
+    color: #F6F6F6;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 3% 0% 0% 13% ;
+}
+
+.menu-header{
+    display: flex;
+    gap: 80px;  
+}
+
+.menu-header-link{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #F6F6F6;
+}
+
+.menu-header-link:hover{
+    color: #22D4FD;
+    transition: 0.2s;
+
+}
+
+.imagen{ width: 450px;
+
+}
+
+.titulo-destaque{
+    color: #22d4fd;
+}
+
+.presentacion{
+        display: flex;
+        align-items: center;
+        padding: 4% 13% 3% 13%;
+        justify-content: space-between; 
+}
+
+.presentacion-texto{
+    width: 610px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.presentacion-texto-titulo{
+    font-size: 34px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 54px;
+}
+
+.presentacion-texto-parrafo{
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.presentacion-anclas{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+ 
+}
+
+.presentacion-subtitulo-enlaces{
+    font-family: "Krona One";
+    font-size: 22px;    
+    font-weight: 400;
+}  
+
+.presentacion-anclas-enlaces{
+    width: 378px;
+    height: 68px;
+    align-items: center;
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #22D4FD;
+    display: flex;
+    justify-content: center;
+    
+    gap: 10px;
+}
+
+.presentacion-anclas-enlaces:hover{
+    background-color: #272727;
+    transition-duration: 0.3s;
+    padding: 0.5%;
+
+
+}
+
+.footer{
+    background-color: #22D4FD;
+    padding: 15px;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
