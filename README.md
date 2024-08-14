@@ -12,4 +12,4 @@ Objetivos:
 
 - Dar a conocer mis proyectos
 - Mostrar mi curriculum
-- Mostrar un poco mi manejo de html, css, js
+- Mostrar un poco mi manejo de HTML, CSS Y JS.
